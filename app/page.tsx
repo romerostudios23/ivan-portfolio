@@ -301,7 +301,7 @@ export default function PortfolioWebsite() {
         <div className="flex flex-wrap justify-center gap-4">
 
        <a
-  href="https://wa.me/8224303405"
+  href="https://wa.me/18224303405"
   target="_blank"
   className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition inline-block"
 >
@@ -309,7 +309,7 @@ export default function PortfolioWebsite() {
 </a>
 
 <a
-  href="https://instagram.com/romero_gstudio/"
+  href="https://www.instagram.com/romero_gstudio/"
   target="_blank"
   className="border border-white px-8 py-4 rounded-2xl font-semibold hover:bg-white hover:text-black transition inline-block"
 >
