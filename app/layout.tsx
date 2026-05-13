@@ -5,18 +5,7 @@ import localFont from "next/font/local";
 import SmoothScroll from "../components/SmoothScroll";
 
 const generalSans = localFont({
-  src: [
-    {
-      path: "./fonts/GeneralSans-Regular.otf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "./fonts/GeneralSans-Bold.otf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
+  src: "./fonts/GeneralSans-Variable.ttf",
   variable: "--font-general-sans",
 });
 
