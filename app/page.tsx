@@ -308,13 +308,22 @@ export default function PortfolioWebsite() {
   Hablar por WhatsApp
 </a>
 
-<a
-  href="https://www.instagram.com/romero_gstudio/"
-  target="_blank"
-  className="border border-white px-8 py-4 rounded-2xl font-semibold hover:bg-white hover:text-black transition inline-block"
+
+<button
+  onClick={() => {
+    alert("Descubre más proyectos en Instagram.");
+
+    window.open(
+      "https://instagram.com/romero_gstudio/",
+      "_blank"
+    );
+  }}
+  className="border border-white px-8 py-4 rounded-2xl font-semibold hover:bg-white hover:text-black transition"
 >
-  Ver Instagram
-</a>
+  Ver Instag
+</button>
+
+
         </div>
 
       </section>

@@ -5,10 +5,12 @@ import { useEffect } from "react";
 
 export default function SmoothScroll() {
   useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.15,
-      smoothWheel: true,
-    });
+  const lenis = new Lenis({
+  duration: 0.7,
+  smoothWheel: true,
+  wheelMultiplier: 1.4,
+  touchMultiplier: 0.5,
+});
 
     function raf(time: number) {
       lenis.raf(time);
